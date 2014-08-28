@@ -31,3 +31,7 @@ Simple Android todo app.
 
 
 ** *Step by step run through the app*
+
+*Add New Task*
+
+[![Add Task](https://github.com/nehasharma18/screenshots/blob/master/Add_task.gif)]
