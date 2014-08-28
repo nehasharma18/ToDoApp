@@ -35,3 +35,13 @@ Simple Android todo app.
 *Add New Task*
 
 [![Add Task](https://github.com/nehasharma18/screenshots/blob/master/Add_task.gif)]
+
+
+*Add Reminder*
+
+[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder.gif)]
+
+
+*Add Notes*
+
+[![Add Notes](https://github.com/nehasharma18/screenshots/blob/master/Add_Notes.gif)]
