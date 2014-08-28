@@ -6,7 +6,7 @@ Simple Android todo app.
 **
 
 
-This is a Todo List application with the following usage features:
+** *This is a Todo List application with the following usage features:*
 
 1) Add new task.
 
@@ -19,7 +19,7 @@ This is a Todo List application with the following usage features:
 5) Delete a task (set as completed).
 
 
-Key features:
+** *Key features:*
 
 1) SQLite Database was used to store the task list and its related data.
 
