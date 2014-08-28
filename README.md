@@ -5,9 +5,9 @@ Simple Android todo app.
 
 **
 
-
-** *This is a Todo List application with the following usage features:*
-
+-----------------------------------------------------------------------
+*This is a Todo List application with the following usage features:*
+----------------------------------------------------------------------
 1) Add new task.
 
 2) Edit existing task.
@@ -18,19 +18,31 @@ Simple Android todo app.
 
 5) Delete a task (set as completed).
 
+-----------------------
+*Key features:*
+-----------------------
+1) SQLite Database was used to store the task list and its related data such as - task string,
+completion status, reminder date, reminder time, notes.
 
-** *Key features:*
-
-1) SQLite Database was used to store the task list and its related data.
-
-2) Date and time dialog features were used to enable reminder scheduling.
+2) Date and time Android dialog features were used to enable reminder scheduling.
 
 3) Android Alarm Manager and broadcast receiver was used to enable reminder alarm.
 
 4) Reminder date is checked for being invalid.
 
+-------------------
+*Known /issues*
+-------------------
+1) 5) Added code for generating a notification for reminders. But, for some reason the emulator
+does not generate notifications. Tried to debug but, could not find the issue.
 
-** *Step by step run through the app*
+2) Tried added checkbox option for deleting tasks using custom adapters. But, on resume the 
+tasks in the list were being duplicated. Commented the checkbox feature due this issue.
+
+
+------------------------------------------------
+*Step by step run through the app*
+------------------------------------------------
 
 *Add New Task*
 
@@ -45,15 +57,23 @@ Simple Android todo app.
 
 [![Delete Task](https://github.com/nehasharma18/screenshots/blob/master/Delete_task2.gif)]
 
+
+
 *Add Reminder*
 
-[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder2.gif)]
+[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_reminder2.gif)]
 
 
-[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder3.gif)]
+
+Waiting for the alarm to go off. A toast is generated as a reminder. 
+
+[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_reminder3.gif)]
 
 
-[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder3.gif)]
+
+Error message is generated if reminder date is invalid.
+
+[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_reminder4.gif)]
 
 
 *Add Notes*
