@@ -27,19 +27,33 @@ Simple Android todo app.
 
 3) Android Alarm Manager and broadcast receiver was used to enable reminder alarm.
 
-4) Custom array adapter was created to allow deletion of task using a checkbox.
+4) Reminder date is checked for being invalid.
 
 
 ** *Step by step run through the app*
 
 *Add New Task*
 
-[![Add Task](https://github.com/nehasharma18/screenshots/blob/master/Add_task.gif)]
+[![Add Task](https://github.com/nehasharma18/screenshots/blob/master/Add_task2.gif)]
 
+
+*Edit Task*
+
+[![Edit Task](https://github.com/nehasharma18/screenshots/blob/master/Edit_task2.gif)]
+
+*Delete Task*
+
+[![Delete Task](https://github.com/nehasharma18/screenshots/blob/master/Delete_task2.gif)]
 
 *Add Reminder*
 
-[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder.gif)]
+[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder2.gif)]
+
+
+[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder3.gif)]
+
+
+[![Add Reminder](https://github.com/nehasharma18/screenshots/blob/master/Add_Reminder3.gif)]
 
 
 *Add Notes*
@@ -47,6 +61,7 @@ Simple Android todo app.
 [![Add Notes](https://github.com/nehasharma18/screenshots/blob/master/Add_Notes.gif)]
 
 
-*Delete Task*
+*All information saved in DB*
 
-[![Delete Task](https://github.com/nehasharma18/screenshots/blob/master/Delete_task.gif)]
+[![Info Saved](https://github.com/nehasharma18/screenshots/blob/master/info_saved2.gif)]
+
