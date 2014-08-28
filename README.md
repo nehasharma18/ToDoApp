@@ -45,3 +45,8 @@ Simple Android todo app.
 *Add Notes*
 
 [![Add Notes](https://github.com/nehasharma18/screenshots/blob/master/Add_Notes.gif)]
+
+
+*Delete Task*
+
+[![Delete Task](https://github.com/nehasharma18/screenshots/blob/master/Delete_task.gif)]
