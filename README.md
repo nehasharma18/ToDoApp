@@ -29,4 +29,5 @@ Simple Android todo app.
 
 4) Custom array adapter was created to allow deletion of task using a checkbox.
 
-Step by step run through the app
+
+** *Step by step run through the app*
